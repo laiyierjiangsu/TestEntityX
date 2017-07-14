@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EntityX">
+      <UniqueIdentifier>{cb906172-74e6-46d3-87e6-20f46121889e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityX\3rtParty">
+      <UniqueIdentifier>{b60d6d14-e452-4a92-b348-068f9c0b3ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityX\deps">
+      <UniqueIdentifier>{939308d6-3613-455c-865c-cc62ded96a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityX\help">
+      <UniqueIdentifier>{7c474e4c-2007-422e-a8f7-64cd7a1f1305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityX\tag">
+      <UniqueIdentifier>{b30ed8de-1805-47bd-936c-6aa85f6d696c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{a87bc3e4-7a36-4c3e-92df-213f1aab03ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\3rdparty\catch.hpp">
+      <Filter>EntityX\3rtParty</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\3rdparty\simplesignal.h">
+      <Filter>EntityX\3rtParty</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\deps\Dependencies.h">
+      <Filter>EntityX\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\help\NonCopyable.h">
+      <Filter>EntityX\help</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\help\Pool.h">
+      <Filter>EntityX\help</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\help\Timer.h">
+      <Filter>EntityX\help</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\tags\TagsComponent.h">
+      <Filter>EntityX\tag</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\Entity.h">
+      <Filter>EntityX</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\entityx.h">
+      <Filter>EntityX</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\Event.h">
+      <Filter>EntityX</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\quick.h">
+      <Filter>EntityX</Filter>
+    </ClInclude>
+    <ClInclude Include="entityx\entityx\System.h">
+      <Filter>EntityX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\entityx\help\Pool.cc">
+      <Filter>EntityX\help</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\entityx\help\Timer.cc">
+      <Filter>EntityX\help</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\entityx\Entity.cc">
+      <Filter>EntityX</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\entityx\Event.cc">
+      <Filter>EntityX</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\entityx\System.cc">
+      <Filter>EntityX</Filter>
+    </ClCompile>
+    <ClCompile Include="entityx\examples\example.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="entityx\entityx\config.h.in">
+      <Filter>EntityX</Filter>
+    </None>
+  </ItemGroup>
+</Project>
